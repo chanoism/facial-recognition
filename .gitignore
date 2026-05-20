@@ -1,0 +1,36 @@
+# Face photos — never commit people's photos to a public repo
+known_faces/
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# Virtual environments
+venv/
+venv311/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test files
+test.jpg
+test_frame.jpg
+live_frame.jpg
+snap.jpg
+ppsapp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
