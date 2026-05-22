@@ -27,7 +27,7 @@ Real-time facial recognition using [InsightFace](https://github.com/deepinsighta
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/facial-recognition
+git clone https://github.com/chanoism/facial-recognition
 cd facial-recognition
 ```
 
@@ -127,20 +127,6 @@ If you want to use a DSLR or mirrorless camera (like a Sony A7 IV):
 python facial_recognition.py 2
 ```
 
----
-
-## .gitignore
-
-The `known_faces/` folder is excluded from git to protect people's privacy. Never commit photos of people to a public repository.
-
-A `.gitignore` file is included that excludes:
-- `known_faces/` — your face photos
-- `venv/` and `venv311/` — virtual environment
-- `__pycache__/` — Python cache files
-- `*.pyc` — compiled Python files
-- `*.jpg`, `*.png` — image files
-
----
 
 ## How It Works
 
