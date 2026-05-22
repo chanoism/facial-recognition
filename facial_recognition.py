@@ -10,11 +10,12 @@ import sys
 # ──────────────────────────────────────────────
 
 # Camera index (pass as argument: python facial_recognition.py 2)
-# Common values: 0 = built-in webcam, 1 = external camera, 2 = OBS virtual camera
-CAMERA_INDEX = int(sys.argv[1]) if len(sys.argv) > 1 else 0
+# Common values: 0 = built-in webcam, 1 = external camera, 2 = virtual camera of sorts
+CAMERA_INDEX = int(sys.argv[1]) if len(sys.argv) > 1 else 2
 
 # Path to known faces folder
-KNOWN_FACES_DIR = "known_faces"
+# Don't change the string, if its in your project directory this relative path should work... fingers crossed
+KNOWN_FACES_DIR = "known_faces"  # if you want a different name for the folder make sure its the exact same name or else you'll get an error
 
 # Similarity threshold — lower = stricter matching (recommended: 0.35 to 0.45)
 SIMILARITY_THRESHOLD = 0.4
